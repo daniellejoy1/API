@@ -9,3 +9,17 @@ body {
     margin-right: auto;
     
 }
+
+h1, h2 {
+    display: block;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.covidHeader {
+    font-size:275%
+}
+
+.caseInfo {
+    font-size: 250%;
+}
