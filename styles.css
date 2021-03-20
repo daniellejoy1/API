@@ -1,0 +1,11 @@
+body {
+    background-color: darkred;
+}
+#ronaMap{
+    border: black, 3px, solid;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

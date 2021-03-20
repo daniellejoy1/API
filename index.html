@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= ./styles.css>
+    <title>Covid API</title>
+    <link rel="tab icon" href="./assets/virus.ico">
+</head>
+<body>
+    <h1>Covid-19</h1>
+    <section>
+        <p>Click on a coronavirus image on the map for new confirmed cases from that country</p>
+    </section>
+    <div class = 'virusMap'>
+        <img src= "./assets/covidMap-2.jpg" alt = "Covid Map" id = "ronaMap" usemap= "#covidMap">
+        <map name= "covidMap">
+            <area shape="circle" coords="270, 268, 50" onmouseover="" onclick="unitedStates()">
+            <area shape="circle" coords="483, 217, 10" onmouseover="" onclick="unitedKingdom()">
+            <area shape="circle" coords="474, 259, 14" onmouseover="" onclick="spain()">
+            <area shape="circle" coords="523, 249, 20" onmouseover="" onclick="italy()">
+            <area shape="circle" coords="751, 281, 60" onmouseover="" onclick="china()">
+            <area shape="circle" coords="375, 416, 27" onmouseover="" onclick="brazil()">
+            <area shape="circle" coords="544, 457, 14" onmouseover="" onclick="southAfrica()">
+        </map>
+        </div>
+    <div class = "infoContainer">
+            <!-- container for covid info by country
+            h1: country name
+            p:new confirmed cases
+            p:total deaths-->
+    </div>    
+
+<script src=scripts.js></script
+</body>
+</html>
